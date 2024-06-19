@@ -1,0 +1,345 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./photo_2024-04-17_11-42-04.jpg");
+    background-size: cover;
+}
+ul{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+/*flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    padding: 30px 0 20px;
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+li:hover{
+    border-bottom: 3px solid white;
+    transform: 1s;
+}
+nav a{
+    color: white;
+    font-size: 19px;
+}
+h2{
+    font-size: 68px;
+    font-weight: 400;
+}
+header h2{
+    color: white;
+    text-align: center;
+}
+header div{
+  width: 100%;
+  height: 70%;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+body{
+    text-align: center;
+}
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    width: 30%;
+}
+
+
+
+.section-find{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    width: 100%;
+    background: #fff;
+    /* border: 1px solid red; */
+}
+.section-find div{
+    width: 50%;
+    height: 100%;
+}
+.section-find .div1{
+    text-align: start;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   padding:  10%;
+}
+.section-find .div1 h2{
+    font-size: 68px;
+}
+.section-find .div1 p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.section-find .div1 form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+.section-find .div1 input{
+    padding: 5% 10%;
+    border: 2px solid #ddd;
+    color: #ddd;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.section-find .div2 img{
+    width: 100%;
+    height: 80%;
+}
+
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 840px;
+}
+.about-us div{
+    width: 50%;
+    height: 100%;
+}
+.about-us .div1{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 50px;
+
+}
+.about-us .div1 h2{
+    font-size: 68px;
+    letter-spacing: 2px;
+    width: 70%;
+    text-align: start;
+
+
+}
+.about-us .div1 p{
+    font-size:19px;
+    letter-spacing: 3px;
+    text-align: start;
+
+}
+.about-us .div1 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+} 
+.about-us .div2{
+    position: relative;
+}
+.about-us .div2 .img1{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 450px;
+}
+.about-us .div2 .img2{
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    width: 187px;
+    height: 270px;
+}
+.about-us .div2 .img3{
+    position: absolute;
+    top: 70px;
+    right: 70px;
+    width: 320px;
+    height: 195px;
+}
+
+/*------ section terrace ------ */
+.section-terrace{
+    background: #20201F;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    position: relative;
+}
+.section-terrace h2{
+    color: #fff;
+    width: 100%;
+    line-height: 100px;
+    font-size: 68px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    position: relative;
+    z-index: 1;
+}
+.section-terrace button{
+    color: #fff;
+    background: #20201F;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.section-terrace .img1{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 0;
+}
+.section-terrace .img2{
+    position: absolute;
+    top: 70px;
+    right: 0%;
+}
+.section-terrace .img3{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+.f{
+    height: 300px;
+   background-color: #b0acac;
+    display: flex;
+    justify-content: space-around;
+}
+.f3{
+    color: #fff;
+   margin: 50px 100px 0 0;
+    width: 300px;
+    font-size: 40px;
+}
+.f4{
+    margin: 50px -100px ;
+    font-size: 30px;
+}
+.div1 button{
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    border:2px solid black; 
+    border-radius: 10px;
+}
+.f4 input{
+    margin: 0 200px 30px 0;
+width: 250px;
+height: 50px;
+border-radius: 10px;
+}
+.f7 {
+    color: #fff;
+    margin: 0 270px 20px 0;
+}
+.f6{     
+    color: #fff; 
+    margin: 0 0 0 50px;
+    padding:5px;
+    height: 40px;
+    width: 500px;
+    border: 2px solid rgb(251, 251, 251);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.f5 button{ 
+    color: #fff;
+    margin: 50px 200px 0 0;
+    background-color: #646363;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    border:2px solid rgb(251, 249, 249);
+}
+.f5 button:hover{ 
+    color: black;
+    background-color: #fff;
+    transition: 1s;
+}   
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+footer {
+    padding: 50px 10%;
+    background: #2c2c2b;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer .row_div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .row_div1 .links_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+footer .row_div1 .links_div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+footer .row_div1 .links_div div p{
+    margin-bottom: 30px;
+    font-size: 20px
+}
+
+footer .row_div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+footer .row_div2 .links_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+footer .row_div2 .links_div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
